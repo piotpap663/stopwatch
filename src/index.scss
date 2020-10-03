@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Cookie', cursive;
+}
+
+button {
+  padding: 0.7rem 2rem;
+  border-radius: 14px;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #60a3bc;
+  padding: 1rem;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.4s ease 0s;
+  margin: 0.5rem;
+  outline: none;
+
+
+  &:active {
+    transition: all 0.1s;
+    background: red;
+  }
+}
